@@ -1,14 +1,15 @@
+import { TheemeProvider } from "./ThemeProvider/ThemeProvider";
 import { Card } from "./components/Card/card";
 import { Estilos } from "./components/EstilosGlobais/Estilos";
 
 function App() {
   return (
-    <div>
+    <TheemeProvider>
       <Estilos />
       <Card>
         <h1> Freelando</h1>
       </Card>
-    </div>
+    </TheemeProvider>
   );
 }
 
