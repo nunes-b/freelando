@@ -2,8 +2,9 @@ import styled from "@emotion/styled";
 
 const DivEstilizada = styled.div`
   padding: 32px;
-  background: #ebeaf9;
-  border: 1px solid #5754ed;
+  background: ${(props) => props.theme.colors.secundaries.a};
+  border: 1px solid;
+  border-color: ${(props) => props.theme.colors.primary.a};
   border-radius: 16px;
 `;
 
