@@ -1,4 +1,4 @@
-import { TheemeProvider } from "./ThemeProvider/ThemeProvider";
+import { TheemeProvider } from "./components/ThemeProvider/ThemeProvider";
 import { Card } from "./components/Card/card";
 import { Estilos } from "./components/EstilosGlobais/Estilos";
 import { Header } from "./components/Header/Header";
