@@ -3,6 +3,7 @@ import { Card } from "./components/Card/card";
 import { Estilos } from "./components/EstilosGlobais/Estilos";
 import { Header } from "./components/Header/Header";
 import { Tipografia } from "./components/Tipografia/Tipografia";
+import { CampoTexto } from "./components/CampoTexto/CampoTexto";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           freelancers. Em seguida, você poderá dar mais detalhes sobre suas
           demandas e sobre sua forma de trabalho.
         </Tipografia>
+        <CampoTexto titulo="Nome Completo" />
       </Card>
     </TheemeProvider>
   );
