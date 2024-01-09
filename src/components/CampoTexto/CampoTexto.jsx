@@ -12,6 +12,7 @@ const InputEstilizado = styled.input`
   display: block;
   width: 100%;
   margin-top: ${(props) => props.theme.spacing.xs};
+  margin-bottom: ${(props) => props.theme.spacing.s};
   background: ${(props) => props.theme.colors.white};
   border: 1px solid;
   border-radius: ${(props) => props.theme.spacing.s};
