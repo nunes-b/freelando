@@ -4,6 +4,7 @@ import { Estilos } from "./components/EstilosGlobais/Estilos";
 import { Header } from "./components/Header/Header";
 import { Tipografia } from "./components/Tipografia/Tipografia";
 import { CampoTexto } from "./components/CampoTexto/CampoTexto";
+import { Rodape } from "./components/Footer/Rodape";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         </Tipografia>
         <CampoTexto titulo="Nome Completo" />
       </Card>
+      <Rodape />
     </TheemeProvider>
   );
 }
